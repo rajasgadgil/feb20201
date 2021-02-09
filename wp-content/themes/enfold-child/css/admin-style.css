@@ -1,0 +1,55 @@
+.btn-primary{
+	background-color: #f46a1b;
+    color: #fff;
+	font-weight:bold;
+    border:2px solid #f46a1b;
+    border-radius: 15px;
+	text-decoration:none;
+	display:inline-block;
+	padding:3px 5px;
+}
+.btn-primary:hover{
+	color: #fff!important;
+    background-color: #f46a1b;	
+}
+.userspace_container .card{
+	max-width:100%;
+	padding:40px;
+}
+.userspace_container .card .col-sm-6{
+	display:inline-block;
+	width:30%;
+	margin-bottom:20px;
+}
+.userspace_container .card label{
+	font-weight:bold;
+	font-size:16px;
+	width:100%;
+	display:block;
+	margin-bottom:10px;
+}
+.userspace_container .btn-secondary{
+	box-shadow: 0 5px 10px -5px rgba(0,0,0,.8);
+    font-size: 16px;
+    padding: 8px 30px;
+	background:#f46a1b;
+	transition:all .2s ease-in-out;
+	color:#fff;
+	border:none;
+}
+.userspace_container .btn-secondary:hover{
+    margin-top: 5px;
+    box-shadow: 0 10px 20px -10px rgba(0,0,0,.8);
+	color:#fff;
+}
+.userspace_container input[type="text"],
+.userspace_container input[type="password"],
+.userspace_container input[type="email"],
+.userspace_container input[type="tel"],
+.userspace_container select{
+	width:90%;
+	margin-bottom:0px!important;
+}
+.form-validate .error-field{
+	color:#e70b0b;
+}
